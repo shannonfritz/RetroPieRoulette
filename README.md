@@ -27,7 +27,7 @@ Once I had that, I found the timeout command was killing the runcommnd script, b
 That is the core of how the ROMs are loaded.
 
 ## Randomly Selecting ROMs
-Next up, I needed a way to randomly pick a ROM to play.  To do that, I decided to create an array of the ROMs I wanted to use.  I am not real happy with this method, as I think it would be better to get a directory listing of all the ROMs on disk, then randomly pick one of them to load, but this array method let's me be real particular about whar ROMs should be used in the Roulette.  So it was GoodEnough(tm).
+Next up, I needed a way to randomly pick a ROM to play.  To do that, I decided to create an array of the ROMs I wanted to use.  I am not real happy with this method, as I think it would be better to get a directory listing of all the ROMs on disk, then randomly pick one of them to load, but this array method let's me be real particular about what ROMs should be used in the Roulette.  So it was GoodEnough(tm).
 
     romlist=(
         'nes "/home/pi/RetroPie/roms/nes/Rampage (U).zip"'
