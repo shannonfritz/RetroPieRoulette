@@ -11,7 +11,7 @@ Just save the `autostart.sh` to your RetroPie under `/opt/retropie/configs/all/`
 # What?
 As much as I like my classic video games, I don't really play them that much, if at all.  So after I set up a [RetroPie](https://retropie.org.uk/), I didn't want that effort to go to waste by just sitting there on my desk, so I decided to find a way to make the thing sort of "play itself".  I didn't want to get real elaborate with button presses or actual game play, but I did figure out how to load a random ROM for a couple minutes, then load another one.  Most games have some kind of demo gameplay, but some just sit at a start screen.  So not all ROMs are great candidates for this "carousel" sort of random ROM loads, but there are pleanty of them that are.
 
-## Automatic Loading ROMs
+## Automaticly Load ROMs
 RetroPie runs an `autostart.sh` script when it first loads, and normally it just launches the `emulationstation` front end.  I found [a post on the RetroPie forum](https://retropie.org.uk/forum/topic/5287/autostart-nes-rom-at-startup/4) that describes **how to launch a ROM directly using `runcommand.sh`** which looks something like this:
 
     /opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ nes "/home/pi/RetroPie/roms/nes/Rampage (U).zip"
